@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mintrik - Build & Learn</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Mintrik</a>
+            <div class="nav-links">
+                <a href="#lessons">Lessons</a>
+                <a href="#playground">Playground</a>
+                <a href="#progress">Progress</a>
+                <a href="#profile">Profile</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+      <div class="floating-shapes">
+        <!-- Top left quadrant -->
+        <div class="shape shape-circle" style="width: 80px; height: 80px; left: 20%; top: 15%;"></div>
+        <div class="shape shape-letter" style="left: 35%; top: 25%;">A</div>
+        
+        <!-- Top right quadrant - reduced density -->
+        <div class="shape shape-map" style="right: 25%; top: 20%;">🌍</div>
+        <div class="shape shape-letter" style="right: 15%; top: 30%;">B</div>
+        
+        <!-- Center area -->
+        <div class="shape shape-operator" style="left: 45%; top: 40%; animation-delay: -2s;">+</div>
+        <div class="shape shape-number" style="right: 45%; top: 45%;">7</div>
+        
+        <!-- Bottom left quadrant -->
+        <div class="shape shape-geo shape-triangle" style="left: 25%; top: 65%; animation-delay: -3s;"></div>
+        <div class="shape shape-number" style="left: 15%; top: 75%;">3</div>
+        
+        <!-- Bottom right quadrant -->
+        <div class="shape shape-operator operator-times" style="right: 30%; top: 70%; animation-delay: -6s;">×</div>
+        <div class="shape shape-map" style="right: 20%; top: 80%;">📍</div>
+        
+        <!-- Additional balanced elements -->
+        <div class="shape shape-operator" style="left: 70%; top: 55%; animation-delay: -4s;">−</div>
+        <div class="shape shape-geo shape-diamond" style="left: 55%; top: 85%; animation-delay: -5s;"></div>
+    </div>
+    </div>   
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Build Your Language Skills</h1>
+                <p class="hero-subtitle">
+                    Join us in a unique learning experience where you'll construct your language 
+                    knowledge piece by piece. Each lesson brings you closer to fluency.
+                </p>
+                <a href="#get-started" class="cta-button">Start Building</a>
+            </div>
+            <div class="hero-image">
+                <div class="brick-grid">
+                    <div class="brick"></div>
+                    <div class="brick"></div>
+                    <div class="brick"></div>
+                    <div class="brick"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+      <div class="features-container">
+          <!-- NumberQuest Card -->
+          <div class="game-card">
+              <div class="game-info">
+                  <div class="card-header">
+                      <div class="game-meta">
+                          <span class="game-tag">Featured Game</span>
+                          <h2 class="game-title">NumberQuest</h2>
+                      </div>
+                      <div class="game-stats">
+                          <div class="stat-item">
+                              <span class="stat-number">2.4k</span>
+                              <span class="stat-label">players</span>
+                          </div>
+                          <div class="stat-item">
+                              <span class="stat-number">4.8</span>
+                              <span class="stat-icon">★</span>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <p class="game-description">
+                      Challenge your mathematical prowess with this engaging puzzle game. Navigate a 3x3 grid 
+                      filled with strategic number placement and discover patterns that lead to victory.
+                  </p>
+          
+                  <div class="game-features">
+                      <div class="feature-item">3x3 Grid Layout</div>
+                      <div class="feature-item">Numbers 1-9</div>
+                      <div class="feature-item">Pattern Recognition</div>
+                      <div class="feature-item">Strategic Thinking</div>
+                  </div>
+          
+                  <div class="card-footer">
+                      <div class="friend-activity">
+                          <div class="friend-avatars">
+                              <span class="friend-avatar">M</span>
+                              <span class="friend-avatar">A</span>
+                              <span class="friend-avatar">S</span>
+                              <span class="friend-avatar more">+5</span>
+                          </div>
+                          <span class="friend-count">8 friends playing</span>
+                      </div>
+                      <button class="play-button">
+                          <span class="play-icon"></span>
+                          Play Now
+                      </button>
+                  </div>
+              </div>
+          
+              <div class="game-preview">
+                  <div class="number-grid">
+                      <div class="grid-cell">7</div>
+                      <div class="grid-cell">2</div>
+                      <div class="grid-cell">9</div>
+                      <div class="grid-cell">3</div>
+                      <div class="grid-cell">5</div>
+                      <div class="grid-cell">1</div>
+                      <div class="grid-cell">8</div>
+                      <div class="grid-cell">4</div>
+                      <div class="grid-cell">6</div>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- WordCraft Card -->
+          <div class="game-card" style="background: rgba(164, 119, 139, 0.9);">
+              <div class="game-info">
+                  <div class="card-header">
+                      <div class="game-meta">
+                          <span class="game-tag">New Release</span>
+                          <h2 class="game-title">WordCraft</h2>
+                      </div>
+                      <div class="game-stats">
+                          <div class="stat-item">
+                              <span class="stat-number">1.8k</span>
+                              <span class="stat-label">players</span>
+                          </div>
+                          <div class="stat-item">
+                              <span class="stat-number">4.6</span>
+                              <span class="stat-icon">★</span>
+                          </div>
+                      </div>
+                  </div>
+            
+                  <p class="game-description">
+                      Race against time in this fast-paced word creation challenge. Form words from your letter bank to extend your timer. The longer the word, the more time you earn!
+                  </p>
+            
+                  <div class="game-features">
+                      <div class="feature-item">Time-Based Challenge</div>
+                      <div class="feature-item">Letter Bank System</div>
+                      <div class="feature-item">Word Validation</div>
+                      <div class="feature-item">Score Multipliers</div>
+                  </div>
+            
+                  <div class="card-footer">
+                      <div class="friend-activity">
+                          <div class="friend-avatars">
+                              <div class="friend-avatar">K</div>
+                              <div class="friend-avatar">R</div>
+                              <div class="friend-avatar">L</div>
+                              <div class="friend-avatar more">+3</div>
+                          </div>
+                          <span class="friend-count">6 friends playing</span>
+                      </div>
+                      <button class="play-button">
+                          <span class="play-icon"></span>
+                          Play Now
+                      </button>
+                  </div>
+              </div>
+              <div class="letter-grid">
+                  <div class="time-display">1:45</div>
+                  <div class="letter-bank">
+                      <div class="letter-tile">O</div>
+                      <div class="letter-tile">E</div>
+                      <div class="letter-tile">C</div>
+                      <div class="letter-tile">N</div>
+                      <div class="letter-tile">M</div>
+                      <div class="letter-tile">O</div>
+                      <div class="letter-tile">Y</div>
+                  </div>
+                  <div class="word-display">ECONOMY</div>
+              </div>
+          </div>
+  
+          <!-- Borderline Card -->
+          <div class="game-card" style="background: rgba(71, 144, 98, 0.95);">
+              <div class="game-info">
+                  <div class="card-header">
+                      <div class="game-meta">
+                          <span class="game-tag">Popular</span>
+                          <h2 class="game-title">Borderline</h2>
+                      </div>
+                      <div class="game-stats">
+                          <div class="stat-item">
+                              <span class="stat-number">3.2k</span>
+                              <span class="stat-label">players</span>
+                          </div>
+                          <div class="stat-item">
+                              <span class="stat-number">4.9</span>
+                              <span class="stat-icon" style="color: var(--bg-peach)">★</span>
+                          </div>
+                      </div>
+                  </div>
+            
+                  <p class="game-description">
+                      Test your geography knowledge in this clever detective game. Use a series of clues to identify mystery countries, with each hint bringing you closer to the answer.
+                  </p>
+            
+                  <div class="game-features">
+                      <div class="feature-item">Progressive Hints</div>
+                      <div class="feature-item">World Map Interface</div>
+                      <div class="feature-item">Border Clues</div>
+                      <div class="feature-item">Daily Challenges</div>
+                  </div>
+            
+                  <div class="card-footer">
+                      <div class="friend-activity">
+                          <div class="friend-avatars">
+                              <div class="friend-avatar">D</div>
+                              <div class="friend-avatar">P</div>
+                              <div class="friend-avatar">J</div>
+                              <div class="friend-avatar more">+4</div>
+                          </div>
+                          <span class="friend-count">7 friends playing</span>
+                      </div>
+                      <button class="play-button">
+                          <span class="play-icon"></span>
+                          Play Now
+                      </button>
+                  </div>
+              </div>
+              <div class="hint-display">
+                  <div class="hint-counter">Hint 2/5</div>
+                  <div class="current-hint">
+                      <div class="hint-tag">Border Clue</div>
+                      <div class="hint-text">Shares its longest border with Brazil</div>
+                  </div>
+                  <div class="hint-grid">
+                      <div class="hint-box revealed">
+                          <div class="hint-icon">🌎</div>
+                          <div class="hint-label">Continent</div>
+                      </div>
+                      <div class="hint-box revealed">
+                          <div class="hint-icon">🗺️</div>
+                          <div class="hint-label">Borders</div>
+                      </div>
+                      <div class="hint-box">
+                          <div class="hint-icon">🌆</div>
+                          <div class="hint-label">Capital</div>
+                      </div>
+                      <div class="hint-box">
+                          <div class="hint-icon">💰</div>
+                          <div class="hint-label">Currency</div>
+                      </div>
+                      <div class="hint-box">
+                          <div class="hint-icon">🗣️</div>
+                          <div class="hint-label">Language</div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- ColorPop Card -->
+          <div class="game-card" style="background: rgba(116, 95, 174, 0.95);">
+              <div class="game-info">
+                  <div class="card-header">
+                      <div class="game-meta">
+                          <span class="game-tag">New Release</span>
+                          <h2 class="game-title">ColorPop!</h2>
+                      </div>
+                      <div class="game-stats">
+                          <div class="stat-item">
+                              <span class="stat-number">1.2k</span>
+                              <span class="stat-label">players</span>
+                          </div>
+                          <div class="stat-item">
+                              <span class="stat-number">4.7</span>
+                              <span class="stat-icon">★</span>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <p class="game-description">
+                      Master the art of color matching in this addictive puzzle game. Chain together matching colors to create powerful combinations and special tiles. Every move counts as you race to reach the target score!
+                  </p>
+      
+                  <div class="game-features">
+                      <div class="feature-item">Color Matching</div>
+                      <div class="feature-item">Power-up Tiles</div>
+                      <div class="feature-item">Combo System</div>
+                      <div class="feature-item">Strategic Planning</div>
+                  </div>
+      
+                  <div class="card-footer">
+                      <div class="friend-activity">
+                          <div class="friend-avatars">
+                              <span class="friend-avatar">P</span>
+                              <span class="friend-avatar">E</span>
+                              <span class="friend-avatar">T</span>
+                              <span class="friend-avatar more">+2</span>
+                          </div>
+                          <span class="friend-count">5 friends playing</span>
+                      </div>
+                      <button class="play-button">
+                          <span class="play-icon"></span>
+                          Play Now
+                      </button>
+                  </div>
+              </div>
+      
+              <div class="game-preview">
+                  <div class="color-grid">
+                      <div class="moves-left">Moves: 12</div>
+                      <div class="score-display">Score: 2,450</div>
+                      
+                      <div class="color-cell color-red"></div>
+                      <div class="color-cell color-blue power-up"></div>
+                      <div class="color-cell color-yellow"></div>
+                      <div class="color-cell color-purple"></div>
+                      
+                      <div class="color-cell color-blue"></div>
+                      <div class="color-cell color-blue"></div>
+                      <div class="color-cell color-green"></div>
+                      <div class="color-cell color-yellow"></div>
+                      
+                      <div class="color-cell color-purple"></div>
+                      <div class="color-cell color-red"></div>
+                      <div class="color-cell color-green"></div>
+                      <div class="color-cell color-purple"></div>
+                      
+                      <div class="color-cell color-yellow"></div>
+                      <div class="color-cell color-green"></div>
+                      <div class="color-cell color-red"></div>
+                      <div class="color-cell color-blue"></div>
+      
+                      <div class="combo-meter">Combo × 3!</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <div class="section upcoming-games">
+    <div class="section-container">
+      <h2 class="section-title">Coming Soon</h2>
+      <div class="game-preview-grid">
+        <div class="preview-card">
+          <div class="preview-icon">📅</div>
+          <h3>MathMaster</h3>
+          <div class="preview-date">December 2024</div>
+          <p>Advanced algebraic puzzle challenges</p>
+        </div>
+        <div class="preview-card">
+          <div class="preview-icon">📅</div>
+          <h3>GeoQuest</h3>
+          <div class="preview-date">January 2025</div>
+          <p>Interactive geography exploration</p>
+        </div>
+        <div class="preview-card">
+          <div class="preview-icon">📅</div>
+          <h3>LangLink</h3>
+          <div class="preview-date">February 2025</div>
+          <p>Multiplayer language learning battles</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section community-resources">
+    <div class="section-container">
+      <div class="two-column-grid">
+        <div class="community-col">
+          <div class="icon">👥</div>
+          <h2>Join Our Community</h2>
+          <p>Connect with fellow learners, share achievements, and participate in weekly challenges.</p>
+          <button class="cta-button">Join Discord</button>
+        </div>
+        <div class="blog-col">
+          <div class="icon">📚</div>
+          <h2>Latest from Our Blog</h2>
+          <div class="blog-links">
+            <a href="#">Top 10 Learning Strategies for 2024</a>
+            <a href="#">How Games Improve Cognitive Function</a>
+            <a href="#">Success Stories: From Novice to Master</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section newsletter">
+    <div class="section-container">
+      <div class="newsletter-content">
+        <div class="icon">✉️</div>
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter for weekly learning tips and game updates</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email">
+          <button type="submit" class="cta-button">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="site-footer">
+    <div class="section-container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Company</h3>
+          <a href="#">About Us</a>
+          <a href="#">Careers</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h3>Resources</h3>
+          <a href="#">Help Center</a>
+          <a href="#">Blog</a>
+          <a href="#">Tutorials</a>
+        </div>
+        <div class="footer-col">
+          <h3>Legal</h3>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Cookies</a>
+        </div>
+        <div class="footer-col">
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#">Twitter</a>
+            <a href="#">Discord</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Mintrik. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
